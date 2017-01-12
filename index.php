@@ -43,5 +43,11 @@
 			<li>Jack clicks the 'Submit Review!' button</li>
 			<li>The site displays a confirmation that Jack's review has been submitted</li>
 		</ol>
+		<h2>Conceptual Model</h2>
+		<ul>
+			<li>One <strong>user</strong> can <strong>review</strong> many courses.</li>
+			<li>Many <strong>users</strong> can vote whether the review was helpful on many <strong>reviews</strong>.</li>
+			<li>Many <strong>users</strong> can <strong>follow</strong> many <strong>reviewers</strong> of courses.</li>
+		</ul>
 	</body>
 </html>
