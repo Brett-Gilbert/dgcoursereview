@@ -58,4 +58,4 @@
 			<li>Many <strong>users</strong> can follow many <strong>reviewers</strong> of <strong>courses</strong>.</li>
 		</ul>
 	</body>
-</html>
+</html>'
