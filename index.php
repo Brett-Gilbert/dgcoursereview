@@ -33,6 +33,25 @@
 			<li>The site displays a confirmation that Jack's review has been submitted</li>
 		</ol>
 		<h2>Conceptual Model</h2>
+		<h3>Entities & Attributes</h3>
+		<h4>Profile</h4>
+		<ul>
+			<li>profileId</li>
+			<li>profileEmail</li>
+			<li>profilePdgaNumber</li>
+			<li>profileLocation</li>
+			<li>profileThrowingStyle</li>
+		</ul>
+		<h4>Review</h4>
+		<ul>
+			<li>reviewId</li>
+			<li>reviewTitle</li>
+			<li>reviewAuthor</li>
+			<li>reviewRating</li>
+			<li>reviewContent</li>
+			<li>reviewDate</li>
+		</ul>
+		<h3>Relations</h3>
 		<ul>
 			<li>One <strong>user</strong> can review many <strong>courses</strong>.</li>
 			<li>Many <strong>users</strong> can vote whether the <strong>review</strong> was helpful on many <strong>reviews</strong>.</li>
