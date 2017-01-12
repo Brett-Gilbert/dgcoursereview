@@ -23,24 +23,13 @@
 		<p>J.D."</p>
 		<h2>Interaction Flow</h2>
 		<ol>
-			<li>Jack clicks on Dgcoursereview bookmark</li>
-			<li>The site loads into his browser</li>
-			<li>Jack clicks the 'Log In' button</li>
-			<li>The site displays the log-in page</li>
-			<li>Jack types his username and password and clicks 'Submit!' button</li>
-			<li>The site returns to the main page</li>
 			<li>Jack types the course name into the search field and clicks the magnifying glass, search button</li>
 			<li>The site displays the search result</li>
 			<li>Jack selects the course from the results list</li>
 			<li>The site displays the course's info page</li>
 			<li>Jack clicks the 'Reviews' tab and then the 'Review this course' button</li>
 			<li>The site displays the course review page</li>
-			<li>Type review title</li>
-			<li>Jack selects the time he played the course from the 'Number of times played:' dropdown</li>
-			<li>Jack selects the date he played the course from the 'Last Played On:' dropdown</li>
-			<li>Jack selects his rating of the course from the 'Rating:' dropdown</li>
-			<li>Jack types his pros, cons, and other thoughts into the appropriate fields</li>
-			<li>Jack clicks the 'Submit Review!' button</li>
+			<li>Jack fills in his review and clicks the 'Submit Review!' button</li>
 			<li>The site displays a confirmation that Jack's review has been submitted</li>
 		</ol>
 		<h2>Conceptual Model</h2>
