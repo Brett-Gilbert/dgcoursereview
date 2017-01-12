@@ -34,7 +34,7 @@
 		</ol>
 		<h2>Conceptual Model</h2>
 		<ul>
-			<li>One <strong>user</strong> can <strong>review</strong> many <strong>courses</strong>.</li>
+			<li>One <strong>user</strong> can review many <strong>courses</strong>.</li>
 			<li>Many <strong>users</strong> can vote whether the <strong>review</strong> was helpful on many <strong>reviews</strong>.</li>
 			<li>Many <strong>users</strong> can follow many <strong>reviewers</strong> of <strong>courses</strong>.</li>
 		</ul>
