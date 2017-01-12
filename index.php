@@ -11,8 +11,8 @@
 		<p>Name: Jack Donovan</p>
 		<p>Age: 32</p>
 		<p>Profession: Junior attorney at an established copyright law firm</p>
-		<p>Technology: Samqqqsung Galaxy S7 running Android Marshmallow, 15" Macbook Pro</p>
-		<p>Needs: As a junior attorney at a copyright lawfirm, Jack is often assigned the legwork for the more senior attorney's cases. This legwork often sends Jack across the country as cheaply as possible to places that are not generally considered tourist destinations.</p>
+		<p>Technology: Samsung Galaxy S7 running Android Marshmallow, 15" Macbook Pro running OS X Sierra</p>
+		<p>Needs: As a junior attorney at a copyright lawfirm, Jack is often assigned the legwork for the more senior attorney's cases. This legwork often sends Jack across the country as cheaply as possible to places that are not generally considered tourist destinations. Jack likes to play disc golf wherever he happens to be but needs help finding courses.</p>
 		<p>Goals: Jack's flight schedule often affords him spare time to spend wherever his job has taken him. Jack enjoys spending this time playing otherwise overlooked disc golf gourses. Jack is always careful to review these courses on Dgcoursereview so that others can enjoy (or sometimes avoid) the courses he discovered.</p>
 		<h2>Use Case</h2>
 		<p>Jack is on a red-eye flight home from Dayton, Ohio. Unable to sleep, he decides to write up a review for the disc  golf course he played earlier that afternoon. He takes out his work laptop, connects to the plane's wi-fi, opens Safari, and clicks his bookmark for Dgcoursereview. He then logs into the site and reflects upon his earlier round. He begins to type his review:</p>
