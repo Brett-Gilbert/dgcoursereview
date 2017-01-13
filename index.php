@@ -45,17 +45,24 @@
 		<h4>Review</h4>
 		<ul>
 			<li>reviewId</li>
+			<li>reviewAuthorId</li>
+			<li>reviewCourseId</li>
 			<li>reviewTitle</li>
 			<li>reviewAuthor</li>
 			<li>reviewRating</li>
 			<li>reviewContent</li>
 			<li>reviewDate</li>
 		</ul>
+		<h4>Course</h4>
+		<ul>
+			<li>courseId</li>
+			<li>courseName</li>
+			<li>courseLocation</li>
+			<li>courseDescription</li>
+		</ul>
 		<h3>Relations</h3>
 		<ul>
-			<li>One <strong>user</strong> can review many <strong>courses</strong>.</li>
-			<li>Many <strong>users</strong> can vote whether the <strong>review</strong> was helpful on many <strong>reviews</strong>.</li>
-			<li>Many <strong>users</strong> can follow many <strong>reviewers</strong> of <strong>courses</strong>.</li>
+			<li>Many <strong>user</strong> can review many <strong>courses</strong>(m to n).</li>
 		</ul>
 	</body>
 </html>'
