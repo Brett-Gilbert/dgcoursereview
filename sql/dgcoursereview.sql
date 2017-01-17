@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS 'course';
 DROP TABLE IF EXISTS 'review';
+DROP TABLE IF EXISTS 'course';
 DROP TABLE IF EXISTS 'profile';
 
 -- Create the profile entitiy --
