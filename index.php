@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<h1>Persona, Use Case, and Interaction Flow</h1>
-		<img src="images/Lawyer.jpg" alt="Jack Donovan">
+		<img src="images/Lawyer.jpg" alt="Jack Donovan"/>
 		<h2>Persona</h2>
 		<p>Name: Jack Donovan</p>
 		<p>Age: 32</p>
@@ -36,7 +36,7 @@
 		<h3>Entities & Attributes</h3>
 		<h4>Profile</h4>
 		<ul>
-			<li>profileId</li>
+			<li>profileId (primary key)</li>
 			<li>profileEmail</li>
 			<li>profilePdgaNumber</li>
 			<li>profileLocation</li>
@@ -44,25 +44,26 @@
 		</ul>
 		<h4>Review</h4>
 		<ul>
-			<li>reviewId</li>
-			<li>reviewAuthorId</li>
-			<li>reviewCourseId</li>
+			<li>reviewId (primary key)</li>
+			<li>reviewProfileId (foreign key)</li>
+			<li>reviewCourseId (foreign key)</li>
 			<li>reviewTitle</li>
-			<li>reviewAuthor</li>
 			<li>reviewRating</li>
 			<li>reviewContent</li>
 			<li>reviewDate</li>
 		</ul>
 		<h4>Course</h4>
 		<ul>
-			<li>courseId</li>
+			<li>courseId (primary key)</li>
 			<li>courseName</li>
 			<li>courseLocation</li>
 			<li>courseDescription</li>
 		</ul>
 		<h3>Relations</h3>
 		<ul>
-			<li>Many <strong>user</strong> can review many <strong>courses</strong>(m to n).</li>
+			<li>Many <strong>profile</strong> can review many <strong>courses</strong>(m to n).</li>
 		</ul>
+		<h3>Entity Relationship Diagram</h3>
+		<img src="images/dgcoursereview.svg" alt="ERD"/>
 	</body>
-</html>'
+</html>
