@@ -61,7 +61,7 @@
 		</ul>
 		<h3>Relations</h3>
 		<ul>
-			<li>Many <strong>profile</strong> can review many <strong>courses</strong>(m to n).</li>
+			<li>Many <strong>profiles</strong> can review many <strong>courses</strong>(m to n).</li>
 		</ul>
 		<h3>Entity Relationship Diagram</h3>
 		<img src="images/dgcoursereview.svg" alt="ERD"/>
