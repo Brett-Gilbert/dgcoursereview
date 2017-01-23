@@ -6,7 +6,7 @@
  *
  * @author Brett Gilbert <bgilbert9@cnm.edu>
  **/
-class Profile {
+class Profile implements \JsonSerializable {
 	/**
 	 * id for this profile, this is the primary key
 	 **/
@@ -199,5 +199,10 @@ class Profile {
 			throw(new \RangeException("profile throwing style too long"));
 		}
 		$this->profileThrowingStyle = $newProfileThrowingStyle;
+	}
+	public function jsonSerialize() {
+		$fields = get_object_vars($this);
+		return($fields);
+		// TODO: Implement jsonSerialize() method.
 	}
 }
